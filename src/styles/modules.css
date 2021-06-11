@@ -1,0 +1,64 @@
+.grid {
+  display: grid;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.container {
+  max-width: 1150px;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bot-1 {
+  bottom: 1rem;
+}
+
+.pos-center-y {
+  margin: auto 0;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-1 {
+  flex: 1;
+}
