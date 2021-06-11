@@ -10,6 +10,9 @@
   max-width: 1150px;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
 .h-screen {
   height: 100vh;
 }
@@ -61,4 +64,20 @@
 
 .flex-1 {
   flex: 1;
+}
+
+.text-md {
+  font-size: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.px-1 {
+  padding: 0 1rem;
 }

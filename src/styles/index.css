@@ -33,6 +33,10 @@ tr:nth-child(even) {
 
 button {
   cursor: pointer;
+  font-size: 1.25rem;
+  background: rgb(176, 213, 235);
+  border: none;
+  outline: none;
 }
 
 body {
