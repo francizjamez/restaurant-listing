@@ -86,7 +86,10 @@ export function RestaurantProvider(props) {
       const searched = filteredRestaurants.filter(
         (val) =>
           val.name.toLowerCase().split(" ").includes(text.toLowerCase()) ||
-          val.name.toLowerCase() === text.toLowerCase()
+          val.name.toLowerCase() === text.toLowerCase() ||
+          val.city.toLowerCase().split(" ").includes(text.toLowerCase()) ||
+          val.state.toLowerCase().split(" ").includes(text.toLowerCase()) ||
+          val.genre.toLowerCase().split(",").includes(text.toLowerCase())
       );
       setFilteredRestaurants(searched);
       sliceRestaurants(0, searched);
